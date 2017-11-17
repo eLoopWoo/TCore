@@ -124,9 +124,7 @@ _main:
 	push length_msg
 	call _printf
 	add esp, 8h
-
-
-ret
+	ret
 
 msg db "~~ Tomer Eyzenberg ~~",10,0
 
